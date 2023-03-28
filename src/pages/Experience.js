@@ -17,8 +17,11 @@ function Experience() {
           iconStyle={{ background: "#3e4244", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">My college</h3>
-          <p>college</p>
+          <h3 className="vertical-timeline-element-title">
+            Department of Biochemical Science & Technology, National Taiwan
+            University,
+          </h3>
+          <p>Bachelor Degree</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -26,7 +29,10 @@ function Experience() {
           iconStyle={{ background: "#3e4244", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">My college</h3>
+          <h3 className="vertical-timeline-element-title">
+            National Taiwan University College of Medicine Institute of
+            Molecular Medicine
+          </h3>
           <p>college</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
