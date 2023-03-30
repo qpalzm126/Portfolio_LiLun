@@ -4,8 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 
 function Experience() {
   return (
@@ -19,7 +19,7 @@ function Experience() {
         >
           <h3 className="vertical-timeline-element-title">
             Department of Biochemical Science & Technology, National Taiwan
-            University,
+            University
           </h3>
           <p>Bachelor Degree</p>
         </VerticalTimelineElement>

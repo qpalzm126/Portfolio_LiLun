@@ -1,5 +1,5 @@
 import React from "react";
-import EmailIcon from "@material-ui/icons/Email";
+import EmailIcon from "@mui/icons-material/Email";
 import "../styles/Home.css";
 
 function Home() {
