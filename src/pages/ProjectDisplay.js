@@ -10,13 +10,13 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <Link to={{ pathname: "https://clone-6cf47.web.app/" }} target="_blank">
+      <Link to={{ pathname: project.link }} target="_blank">
         <img src={project.image} alt="" />
       </Link>
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      {/* <GitHubIcon /> */}
     </div>
   );
 }

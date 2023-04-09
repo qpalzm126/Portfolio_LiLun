@@ -19,9 +19,9 @@ function Experience() {
         >
           <h3 className="vertical-timeline-element-title">
             Department of Biochemical Science & Technology, National Taiwan
-            University
+            University (Bachelor Degree)
           </h3>
-          <p>Bachelor Degree</p>
+          <p>• Start learning programing languages: Python, C++, R </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -30,19 +30,21 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            National Taiwan University College of Medicine Institute of
-            Molecular Medicine
+            Medicine Institute of Molecular Medicine,National Taiwan University
+            (Master Degree)
           </h3>
-          <p>college</p>
+          <p>• Start learning Javascript, ReactJS</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2021-Present"
+          date="2022-Present"
           iconStyle={{ background: "#4b3242", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">My work</h3>
-          <p>work</p>
+          <h3 className="vertical-timeline-element-title">
+            Victor Education (Teacher assistant)
+          </h3>
+          {/* <p>work</p> */}
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

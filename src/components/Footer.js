@@ -5,10 +5,10 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="socialMedia">
+      {/* <div className="socialMedia">
         <InstagramIcon />
-      </div>
-      <p>&copy; 2023 Lilun.com</p>
+      </div> */}
+      <p>&copy; 2023 Lilun Portfolio</p>
     </div>
   );
 }
