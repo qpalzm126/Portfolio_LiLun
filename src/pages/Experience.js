@@ -42,9 +42,9 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Victor Education (Teacher assistant)
+            Victor Education (Teacher Assistant)
           </h3>
-          {/* <p>work</p> */}
+          <p></p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
